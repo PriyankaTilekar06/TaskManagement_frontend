@@ -14,7 +14,7 @@ import { AuthProvider, useAuth } from "../context/AuthContext";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { TaskDetail } from "./pages/taskDetails/TaskDetails";
 
-axios.defaults.baseURL = "http://localhost:8000";
+axios.defaults.baseURL = "task-management-backend-one-mu.vercel.app";
 axios.defaults.withCredentials = true;
 
 function App() {
